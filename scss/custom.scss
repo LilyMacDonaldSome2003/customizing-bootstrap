@@ -2,29 +2,42 @@
 // This is the file you will want to update to customize your page.
 
 // Import Google fonts here
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
 // Include any default variable overrides here (colors, font sizes, font family, etc..)
 
-$primary: #A04ADD;
-$secondary: #3B53C7;
-$success: #A4D882;
-$info: #59C1EF;
-$warning: #FFF689;
-$danger: #E5446D;
+$body-bg: #f80;
+
+$primary: #987dd3;
+$secondary: #7d82b8;
+$success: #b7e3cc;
+$info: #c4ffb2;
+$warning: #d6f7a3;
+$danger: #dd7596;
 $light: #f2f2f2;
-$dark: #181853;
+$dark: #404e5c;
 
 // Adjust nav link hover color here
-
-$navbar-light-hover-color: #181853;
+$navbar-light-color: red;
+$navbar-light-hover-color: blue;
+$navbar-light-active-color: yellow;
 
 // Typography
 // Change font family for base text
-
+$font-family-sans-serif: "Tilt Neon", sans-serif;
+$headings-font-family: "Agbalumo", serif;
 
 // Change font family for headings
+$h1-font-size: 1rem * 8;
+$h2-font-size: 1rem * 2;
+$h3-font-size: 1rem * 1.75;
+
+
+$line-height-base: 1.6;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 
 
 
@@ -32,8 +45,7 @@ $navbar-light-hover-color: #181853;
 
 
 
-@import "../node_modules/bootstrap/scss/bootstrap";
-
 // Add additional custom code here
+
 
 // Target .navbar-brand and change font-family to use 'Libre Baskerville'.
