@@ -2,17 +2,30 @@
 // This is the file you will want to update to customize your page.
 
 // Import Google fonts here
+@charset "UTF-8";
 .libre-baskerville-regular {
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
 }
-  
-  .libre-baskerville-bold {
-    font-family: "Libre Baskerville", serif;
-    font-weight: 700;
-    font-style: normal;
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
 }
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+.source-sans-3-<uniquifier> {
+  font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 
 
 // Include any default variable overrides here (colors, font sizes, font family, etc..)
