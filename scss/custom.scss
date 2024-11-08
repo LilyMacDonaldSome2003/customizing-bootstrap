@@ -1,8 +1,8 @@
 // Custom.scss
+@import "../node_modules/bootstrap/scss/bootstrap";
 // This is the file you will want to update to customize your page.
 
 // Import Google fonts here
-@charset "UTF-8";
 .libre-baskerville-regular {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
@@ -18,14 +18,12 @@
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 200 to 900
 
-.source-sans-3-<uniquifier> {
+.source-sans-3 {
   font-family: "Source Sans 3", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
-
-
 
 
 // Include any default variable overrides here (colors, font sizes, font family, etc..)
