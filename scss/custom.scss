@@ -21,7 +21,7 @@ $dark: #181853;
 $navbar-light-color: #A04ADD;
 $navbar-light-hover-color: #A04ADD;
 $navbar-light-active-color: #f2f2f2; 
-$navbar-bg-tertiary-color: #181853;
+$navbar-bg-primary: #181853;
 
 // Typography
 // Change font family for base text
@@ -48,8 +48,9 @@ $line-height-base: 1.6;
 // Change font sizes for h1-h6 using values in assignment
 
 
-
 // Add additional custom code here
+$footer-font-family: "Source", sans-serif;
 
 
 // Target .navbar-brand and change font-family to use 'Libre Baskerville'.
+$navbar-brand-font-family: "Libre Baskerville", serif;
